@@ -1,0 +1,13 @@
+# Ignore everything:
+*.*
+# Except this:
+!.gitignore
+!/mods/**
+!/config/**
+!/scripts/**
+!README.*
+!/libraries/**
+!/forge-1.12.2-14.23.0.2501-universal*
+!/minecraft_server.1.12.2*
+!/run*
+!/SpongeBootstrap-0.6.0*

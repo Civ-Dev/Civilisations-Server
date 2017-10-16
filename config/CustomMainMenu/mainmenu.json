@@ -1,0 +1,200 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:civ.png",
+            "posX" : -125,
+            "posY" : -200,
+            "width" : 250,
+            "height" : 250,
+            "alignment" : "center"
+		}
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 2,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "support":
+        {
+            "text" : "Support",
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/hunbYNV"
+            }
+        },
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 75,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+        "language":
+        {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"tooltip": "Language",
+			"alignment" : "center",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture" : "mainmenu:lang.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "labels":
+    {
+        "Menu":
+        {
+            "text" : "Art Made By IsaacOB1",
+            "posX" : -124,
+            "posY" : -24,
+			"fontSize" : 0.9,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "Developed":
+        {
+            "text" : "Pack Developed By johnfg10 and IsaacOB1",
+            "posX" : -199,
+            "posY" : -12,
+			"fontSize" : 0.9,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -22,
+			"fontSize" : .9,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -10,
+			"fontSize" : .9,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "Civilisations 2: The Rebirth",
+            "posX" : 3,
+            "posY" : -34,
+			"fontSize" : .9,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+
+    "other":
+    {
+	        "panorama":
+        {
+            "images" : "mainmenu:panorama/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
